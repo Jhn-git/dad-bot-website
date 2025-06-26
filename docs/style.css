@@ -1,0 +1,138 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a2e;
+    color: #e0e0e0;
+    position: relative; 
+    margin: 0; 
+    padding: 0; 
+}
+
+header {
+    position: relative;
+    background-color: #23272a;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.1em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 20;
+}
+
+section {
+    background-color: #2f3136;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+h2 {
+    color: #7289da;
+    border-bottom: 2px solid #4f545c;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+code {
+    background-color: #202225;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem; 
+    border-radius: 0.5rem; 
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.invite-button {
+    background-color: #7c3aed; 
+    color: white;
+}
+
+.invite-button:hover {
+    background-color: #6d28d9;
+    transform: translateY(-2px);
+}
+
+.review-button, .support-button { 
+    background-color: #10b981; 
+    color: white;
+}
+
+.review-button:hover, .support-button:hover { 
+    background-color: #059669;
+    transform: translateY(-2px);
+}
+
+.section-card {
+    background-color: #2a2a3e; 
+    border-radius: 0.75rem; 
+    padding: 2rem; 
+    margin-bottom: 2rem; 
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.goblin-gradient-text {
+    background: linear-gradient(to right, #7c3aed, #10b981);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7c3aed;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #6d28d9;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #72767d;
+    width: 100%;
+    background-color: #23272a;
+}
